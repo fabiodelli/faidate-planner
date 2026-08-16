@@ -32,6 +32,11 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# Seed di contesto: decisioni strategiche e ragionamento sul pitch B2B.
+# Resta solo in locale, non va versionato.
+PROJECT_SEED.md
 
 # vercel
 .vercel
